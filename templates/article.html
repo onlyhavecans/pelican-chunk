@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div id="contents">
+	<div class="post type-post status-publish format-standard hentry category-general" id="post">
+		<div class="entry-meta">
+    		<div class="date"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.locale_date }}</a></div>
+			{% if article.author and not SINGLE_AUTHOR %}
+			<span class="byline">
+				By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+			</span>
+			{% endif %}
+		</div> <!--/#entry-meta-->
+		<div class="main">
+			<h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+			<div class="entry-content">
+				{{ article.content }}
+			</div> <!--/#entry-content-->
+		</div> <!--/#main-->
+	</div>  <!--/#post-->
+</div> <!--/#contents-->
+{% endblock %}
