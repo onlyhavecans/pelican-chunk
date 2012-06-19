@@ -42,13 +42,11 @@
 						<li{% if p == page %} class="active"{% endif %} class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
 					  {% endfor %}
 					{% if DISPLAY_CATEGORIES_ON_MENU %}
-						<li class="menu-item menu-item-type-post_type menu-item-object-page">|</li>
 					  {% for cat, null in categories %}
 						<li{% if cat == category %} class="active"{% endif %} class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
 					  {% endfor %}
 					{% endif %}
 					{% if LINKS %}
-						<li class="menu-item menu-item-type-post_type menu-item-object-page">|</li>
 					  {% for name, url in LINKS %}
 						<li  class="active" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ url }}">{{ name }}</a></li>
 					  {% endfor %}
