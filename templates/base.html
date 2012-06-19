@@ -56,9 +56,10 @@
 			</div> <!--/#menu-navigation-container-->
 		</div><!-- /#menu -->
 	
-		
-		{% block content %}
-		{% endblock %}
+		<div id="contents">
+			{% block content %}
+			{% endblock %}
+		</div>
 		
 		<div id="footer">
 			<p>{{ FOOTER_TEXT or 'Powered by <a href="http://pelican.readthedocs.org">Pelican</a>, theme by <a href="http://bunnyman.info">tBunnyMan</a>.' }}</p>

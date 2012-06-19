@@ -1,17 +1,15 @@
 {% extends "base.html" %}
 {% block content %}
-<div id="contents">
-	<div class="page type-page status-publish hentry" id="post">
-		<div id="main">
-			<h2 class="entry-title">Archives for {{ SITENAME }}</h2>
-			<div class="entry-content">
-				<dl>
-				{% for article in dates %}
-				    <dt>{{ article.locale_date }}</dt>
-				    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-				{% endfor %}
-				</dl>
-			</div>
+<div class="page type-page status-publish hentry" id="post">
+	<div id="main">
+		<h2 class="entry-title">Archives for {{ SITENAME }}</h2>
+		<div class="entry-content">
+			<dl>
+			{% for article in dates %}
+			    <dt>{{ article.locale_date }}</dt>
+			    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+			{% endfor %}
+			</dl>
 		</div>
 	</div>
 </div>

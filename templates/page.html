@@ -1,20 +1,18 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{% endblock %}
 {% block content %}
-<div id="contents">
-	<div class="page type-page status-publish hentry" id="post">
-		<div class="entry-meta">
-			<!-- <div class="comments"><a href="http://bunnyman.info/pgp-key/#respond" title="Comment on PGP Key">Leave a comment</a></div> -->
-			<span class="cat-links"></span>
-		</div> <!-- /#entry-meta -->
-		<div class="main">
-			<h2 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark"></a></h2>
-			<div class="entry-content">
-				{{ page.content }}
-			</div> <!-- /#entry-content -->
-		</div> <!-- /#main -->
-	</div> <!-- /#post -->
-</div> <!-- /#contents -->
+<div class="page type-page status-publish hentry" id="post">
+	<div class="entry-meta">
+		<!-- <div class="comments"><a href="http://bunnyman.info/pgp-key/#respond" title="Comment on PGP Key">Leave a comment</a></div> -->
+		<span class="cat-links"></span>
+	</div> <!-- /#entry-meta -->
+	<div class="main">
+		<h2 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark"></a></h2>
+		<div class="entry-content">
+			{{ page.content }}
+		</div> <!-- /#entry-content -->
+	</div> <!-- /#main -->
+</div> <!-- /#post -->
 {% endblock %}
 
 
