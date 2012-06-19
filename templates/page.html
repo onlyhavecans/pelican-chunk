@@ -3,11 +3,11 @@
 {% block content %}
 <div class="page type-page status-publish hentry" id="post">
 	<div class="entry-meta">
-		<!-- <div class="comments"><a href="http://bunnyman.info/pgp-key/#respond" title="Comment on PGP Key">Leave a comment</a></div> -->
+		<!-- <div class="comments"><a href="{{ SITEURL }}/{{ page.url }}#disqus_thread" title="Comment on {{ page.title|striptags }}">Leave a comment</a></div> -->
 		<span class="cat-links"></span>
 	</div> <!-- /#entry-meta -->
 	<div class="main">
-		<h2 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark"></a></h2>
+		<h2 class="entry-title"><a href="{{ SITEURL }}/{{ page.url }}" title="Permalink to {{ page.title|striptags }}" rel="bookmark">{{ page.title }}</a></h2>
 		<div class="entry-content">
 			{{ page.content }}
 		</div> <!-- /#entry-content -->
