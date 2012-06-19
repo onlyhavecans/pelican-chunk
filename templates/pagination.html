@@ -7,11 +7,11 @@
 			{% else %}
 				<a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html">
 			{% endif %}
-			<span class="meta-nav">&larr;</span> Older posts</a>
+			<span class="meta-nav">&larr;</span> Newer posts</a>
 		</div>		
 	{% endif %}
 	{% if articles_page.has_next() %}
-		<div class="nav-next"><a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" >Newer posts <span class="meta-nav">&rarr;</span></a></div>
+		<div class="nav-next"><a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.next_page_number() }}.html" >Older posts <span class="meta-nav">&rarr;</span></a></div>
 	{% endif %}
 </div>
 {% endif %}
