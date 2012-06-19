@@ -5,7 +5,7 @@
 		<span class="byline">By <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></span>
 		{% endif %}
 		{% if DISQUS_SITENAME %}
-			<div class="comments"><a href="{{ SITEURL }}/{{ article.url }}/#disqus_thread" title="Comment on {{ article.title|striptags }}">Leave a comment</a></div>
+			<div class="comments"><a href="{{ SITEURL }}/{{ article.url }}#disqus_thread" title="Comment on {{ article.title|striptags }}">Leave a comment</a></div>
 		{% endif %}
 		{% if DISPLAY_CATEGORIES_ON_MENU %}
 			<span class="cat-links"><a href="{{ SITEURL }}/{{ article.category.url }}" title="View all posts in {{ article.category }}" rel="category tag">{{ article.category }}</a></span>
