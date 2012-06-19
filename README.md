@@ -5,13 +5,14 @@ For enhancements, bug tracking, and requests please check my fork
 https://github.com/tbunnyman/pelican-chunk
 
 ## Settings used by this theme (All Optional)
-* `SINGLE_AUTHOR = True/False`
-* `MINT = True/False`
-* `GOOGLE_ANALYTICS = 'Put your google code here'`
+* `DEFAULT_DATE_FORMAT = ('%b %d %Y')` : suggested date format
 * `SITESUBTITLE = 'String'`
 * `FOOTER_TEXT = 'Replace pelican credit'`
 * `DISPLAY_CATEGORIES_ON_MENU = True/False`
 * `LINKS = (('Site', 'http://url.com'), ('Site 2', 'http://another.url.com'))`
+* `SINGLE_AUTHOR = True/False`
+* `MINT = True/False`
+* `GOOGLE_ANALYTICS = 'Put your google code here'`
 
 ## Authors
 * [Tran (thisistran) on Twitter](http://twitter.com/#!/thisistran) (Original Wordpress)
