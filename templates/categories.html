@@ -1,4 +1,10 @@
 {% extends "base.html" %}
+{% block title %}{{ SITENAME }} &mdash; Categories{% endblock %}
+{% block content_title %}
+<div class="page-title">
+	<h2>Categories on <span>{{ SITENAME }}</span> &hellip;</h2>
+</div>
+{% endblock %}
 {% block content %}
 <ul>
 {% for category, articles in categories %}
