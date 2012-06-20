@@ -1,8 +1,7 @@
 # Chunk for Pelican
 This is a "faithful as possible" translation of Chunk-wpcom v1.0 for Pelican 3. My goal is to make it near indistinguishable from the original.
 
-For enhancements, bug tracking, and requests please check my fork
-https://github.com/tbunnyman/pelican-chunk
+For enhancements, bug tracking, and requests please check my [github repo](https://github.com/tbunnyman/pelican-chunk)
 
 ## Settings used by this theme (All Optional)
 * `DEFAULT_DATE_FORMAT = ('%b %d %Y')` : suggested date format
