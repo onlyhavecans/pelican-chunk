@@ -10,6 +10,8 @@ License URI: license.txt
 Tags: light, white, fixed-width, one-column, custom-background, custom-header, custom-menu, post-formats, rtl-language-support, sticky-post, translation-ready, art, blog, cartoon, holiday, journal, lifestream, photography, tumblelog, bright, clean, contemporary, flamboyant, modern
 */
 
+@import url("pygment.css");
+
 /* =Base
 ----------------------------------------------- */
 body {
