@@ -80,6 +80,9 @@
 					})();
 				</script>
 			{% endif %}
+			{% if DISQUS_SITENAME %}
+				{% include 'disqus_script.html' %}
+			{% endif %}
 		</div><!-- /#footer -->
 	</div><!-- /#container -->
 	<div style="display:none"></div>
