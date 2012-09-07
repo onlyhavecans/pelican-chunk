@@ -1,7 +1,7 @@
 .codehilite pre {
   display: block;
   padding: .5em;
-  background: #fdf6e3;
+  background: rgba(253,251,228,0.64);
   color: #657b83;
   white-space: pre-line
 }
