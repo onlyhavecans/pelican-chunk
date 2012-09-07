@@ -1,3 +1,11 @@
+.codehilite pre {
+  display: block;
+  padding: .5em;
+  background: #fdf6e3;
+  color: #657b83;
+  white-space: pre-line
+}
+
 .hll {
 background-color:#FFFFCC;
 }
