@@ -8,6 +8,7 @@ For enhancements, bug tracking, and requests please check my [github repo](https
 * `SITESUBTITLE = 'String'`
 * `FOOTER_TEXT = 'Replace pelican credit'`
 * `DISPLAY_CATEGORIES_ON_MENU = True/False`
+* `DISPLAY_PAGES_ON_MENU = True/False`
 * `LINKS = (('Site', 'http://url.com'), ('Site 2', 'http://another.url.com'))`
 * `SINGLE_AUTHOR = True/False`
 * `MINT = True/False`
